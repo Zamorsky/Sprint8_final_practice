@@ -9,7 +9,7 @@ public class AccountTest {
     @DisplayName("Проверяем корректное имя")
     public void testValidName() {
         // Проверяем корректное имя
-        Account account = new Account("John Doe");
+        Account account = new Account("JohnDoe");
         assertTrue(account.checkNameToEmboss());
     }
 
